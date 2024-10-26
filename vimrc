@@ -25,5 +25,5 @@ colorscheme solarized
 
 let mapleader=" "
 
-au BufRead,BufNewFile *.njk set filetype=html
-au BufRead,BufNewFile *.ejs set filetype=html
+" au BufRead,BufNewFile *.njk set filetype=html
+" au BufRead,BufNewFile *.ejs set filetype=html

@@ -15,3 +15,6 @@ export PATH="/opt/homebrew/bin:$PATH"
 # alias vim="nvim"
 alias s="git status ."
 
+typeset -U path cdpath fpath
+setopt auto_cd
+cdpath=($HOME/projects)
