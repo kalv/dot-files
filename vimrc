@@ -27,3 +27,5 @@ let mapleader=" "
 
 " au BufRead,BufNewFile *.njk set filetype=html
 " au BufRead,BufNewFile *.ejs set filetype=html
+
+:set backspace=indent,eol,start
