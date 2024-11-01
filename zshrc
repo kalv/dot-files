@@ -15,7 +15,7 @@ export PATH="/opt/homebrew/bin:$PATH"
 # alias vim="nvim"
 alias s="git status ."
 alias d="git diff ."
-alias ll="ls -al"
+alias ll="ls -alh"
 
 typeset -U path cdpath fpath
 setopt auto_cd
