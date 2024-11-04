@@ -25,6 +25,8 @@ colorscheme solarized
 
 let mapleader=" "
 
+noremap <Leader>p :Files<cr>
+
 " au BufRead,BufNewFile *.njk set filetype=html
 " au BufRead,BufNewFile *.ejs set filetype=html
 
@@ -40,3 +42,4 @@ nnoremap <SPACE> <Nop>
 " :nnoremap <leader>n :tabn
 "
 :set hlsearch
+
