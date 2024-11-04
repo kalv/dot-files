@@ -26,6 +26,8 @@ colorscheme solarized
 let mapleader=" "
 
 noremap <Leader>p :Files<cr>
+noremap <Leader>l :tabn<cr>
+noremap <Leader>h :tabp<cr>
 
 " au BufRead,BufNewFile *.njk set filetype=html
 " au BufRead,BufNewFile *.ejs set filetype=html
