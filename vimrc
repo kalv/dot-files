@@ -29,3 +29,14 @@ let mapleader=" "
 " au BufRead,BufNewFile *.ejs set filetype=html
 
 :set backspace=indent,eol,start
+
+nnoremap <SPACE> <Nop>
+" let mapleader=" "
+" ctrl-w v -> :vsplit :tabn :tabp
+"
+" ctrl -j to move current line up
+
+" :nnoremap <leader>p :tabp
+" :nnoremap <leader>n :tabn
+"
+:set hlsearch

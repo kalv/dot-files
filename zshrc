@@ -20,3 +20,20 @@ alias ll="ls -alh"
 typeset -U path cdpath fpath
 setopt auto_cd
 cdpath=($HOME/projects)
+
+echo 'export PATH="/opt/homebrew/opt/ffmpeg@6/bin:$PATH"' >> ~/.zshrc
+
+# export LDFLAGS="-L/opt/homebrew/opt/ffmpeg@6/lib"
+# export CPPFLAGS="-I/opt/homebrew/opt/ffmpeg@6/include"
+export PATH="/opt/homebrew/opt/ffmpeg@6/bin:$PATH"
+export PATH="/opt/homebrew/opt/ffmpeg@6/bin:$PATH"
+export PATH="/opt/homebrew/opt/ffmpeg@6/bin:$PATH"
+export PATH="/opt/homebrew/opt/ffmpeg@6/bin:$PATH"
+export PATH="/opt/homebrew/opt/ffmpeg@6/bin:$PATH"
+export PATH="/opt/homebrew/opt/ffmpeg@6/bin:$PATH"
+export PATH="/opt/homebrew/opt/ffmpeg@6/bin:$PATH"
+export PATH="/opt/homebrew/opt/ffmpeg@6/bin:$PATH"
+export PATH="/opt/homebrew/opt/ffmpeg@6/bin:$PATH"
+export PATH="/opt/homebrew/opt/ffmpeg@6/bin:$PATH"
+export PATH="/opt/homebrew/opt/ffmpeg@6/bin:$PATH"
+export PATH="/opt/homebrew/opt/ffmpeg@6/bin:$PATH"
