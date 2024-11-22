@@ -24,3 +24,5 @@ cdpath=($HOME/projects)
 # export LDFLAGS="-L/opt/homebrew/opt/ffmpeg@6/lib"
 # export CPPFLAGS="-I/opt/homebrew/opt/ffmpeg@6/include"
 export PATH="/opt/homebrew/opt/ffmpeg@6/bin:$PATH"
+
+source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
