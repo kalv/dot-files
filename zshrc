@@ -16,6 +16,8 @@ export PATH="/opt/homebrew/bin:$PATH"
 alias s="git status ."
 alias d="git diff ."
 alias ll="ls -alh"
+alias pip="pip3"
+alias pythong="python3"
 
 typeset -U path cdpath fpath
 setopt auto_cd
