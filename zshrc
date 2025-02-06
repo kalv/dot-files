@@ -28,3 +28,9 @@ cdpath=($HOME/projects)
 export PATH="/opt/homebrew/opt/ffmpeg@6/bin:$PATH"
 
 source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+
+# Stuff for python
+export PATH="/opt/homebrew/opt/qt@5/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/qt@5/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/qt@5/include"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/qt@5/lib/pkgconfig"

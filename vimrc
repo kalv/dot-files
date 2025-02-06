@@ -28,6 +28,8 @@ let mapleader=" "
 noremap <Leader>p :Files<cr>
 noremap <Leader>l :tabn<cr>
 noremap <Leader>h :tabp<cr>
+noremap <Leader>v :vsplit<cr>
+noremap <leader>r :so ~/.vimrc<cr>
 
 " au BufRead,BufNewFile *.njk set filetype=html
 " au BufRead,BufNewFile *.ejs set filetype=html
