@@ -7,6 +7,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'altercation/vim-colors-solarized'
 Plug 'dense-analysis/ale'
 Plug 'vim-syntastic/syntastic'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " On pressing tab, insert 2 spaces
@@ -37,13 +38,11 @@ noremap <leader>r :so ~/.vimrc<cr>
 :set backspace=indent,eol,start
 
 nnoremap <SPACE> <Nop>
-" let mapleader=" "
-" ctrl-w v -> :vsplit :tabn :tabp
-"
-" ctrl -j to move current line up
 
-" :nnoremap <leader>p :tabp
-" :nnoremap <leader>n :tabn
-"
 :set hlsearch
 
+" Allow moving of single lines or block in insert mode
+nnoremap <c-j> :m .+1<CR>==
+nnoremap <c-k> :m .-2<CR>==
+vnoremap <c-j> :m '>+1<CR>gv=gv
+vnoremap <c-k> :m '<-2<CR>gv=gv
