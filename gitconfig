@@ -4,3 +4,5 @@
 	email = kalvir.sandhu@gmail.com
 [alias]
     co = checkout
+[init]
+	defaultBranch = main
